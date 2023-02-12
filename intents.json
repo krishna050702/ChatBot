@@ -32,52 +32,198 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "admission",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What is admission procedure and what is eligibility criteria to get admission?",
+        "What is admission procedure ?",
+        "regarding admission",
+        "eligibility criteria to get admission ?",
+        "eligibility critieria for admission",
+        "admission in RCOEM",
+        "how to get into RCOEM ?",
+        "What is the fees under NRI quota?",
+        "NRI quota admission"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "http://www.rknec.edu/Admissions/admissionlanding.aspx"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "directsecondYear",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What is the procedure for direct second year B.Tech admission to RCOEM?",
+        "direct second year admission",
+        "direct second year BTech admission",
+        "direct second year admission RCOEM"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "placement",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What is the placement scenario in your Institute?",
+        "placement in RCOEM",
+        "about placements",
+        "highest package in rcoem"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "http://www.rknec.edu/Placement/Placements.aspx"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "FeeBE",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "what is fee structure ?",
+        "engineering fees",
+        "be fees",
+        "four year fees",
+        "btech fees",
+        "computer science fees",
+        "What are the Initial documents required for admission?",
+        "admission documents required",
+        "important admission documents",
+        "admission documents list"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "http://www.rknec.edu/Admissions/First-Year.aspx"
+      ]
+    },
+    {
+      "tag": "Feemba",
+      "patterns": [
+        "mba fess",
+        "mca fess"
+      ],
+      "responses": [
+        "http://www.rknec.edu/Admissions/AdmissionMBA.aspx"
+      ]
+    },
+    {
+      "tag": "Feemca",
+      "patterns": [
+        "mba fess structure",
+        "mca fess structure"
+      ],
+      "responses": [
+        "http://www.rknec.edu/Admissions/AdmissionMCA.aspx#"
+      ]
+    },
+    {
+      "tag": "noAns",
+      "patterns": [
+        "Do you have Transport Facility?",
+        "transport facility",
+        "Is there any donation for admission at RCOEM?",
+        "donation admission"
+      ],
+      "responses": [
+        "No"
+      ]
+    },
+    {
+      "tag": "yesAns",
+      "patterns": [
+        "Is there any hostel facility for Boys and Girls ?",
+        "hostel facility",
+        "Is there hostel mess"
+      ],
+      "responses": [
+        "Yes"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "If I belong to SC/ST/OBC category then how much scholarship will I get?",
+        "sc scholarship",
+        "st scholarship",
+        "obc scholarship",
+        "ebc scholarship",
+        "goverment scholarship"
+      ],
+      "responses": [
+        "Do visit:- https://mahadbt.maharashtra.gov.in/Login/Login"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "If I take admission then what are the facilities will I get?",
+        "facilities after admission",
+        "college facilities"
+      
+      ],
+      "responses": [
+        "http://www.rknec.edu/Imp%20Links/Facilities.aspx"
+      ]
+    },
+    {
+      "tag": "dteCode",
+      "patterns": [
+        "What is the Institution DTE Code?",
+        "college dte code",
+        "rcoem dte code"
+      ],
+      "responses": [
+        "4115"
+      ]
+    },
+    {
+      "tag": "hostelFees",
+      "patterns": [
+        "What is hostel Fee Structure for Boys and Girls?",
+        "hostel fees structure",
+        "boys hostel fees",
+        "girls hostel fees"
+      ],
+      "responses": [
+        "http://www.rknec.edu/Students/Hostel/Hostel.aspx"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "May I get any Idea about the location of Your College?",
+        "college location",
+        "rcoem location",
+        "rcoem address"
+      ],
+      "responses": [
+        "Shri Ramdeobaba College of Engineering and Management, Katol Rd, Lonand, Gittikhadan, Nagpur, Maharashtra 440013",
+        "https://www.google.com/maps/dir/21.1779584,79.0593536/rcoem+college+location/@21.1777092,79.0567884,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bd4c1a8970c08e9:0xfe4a9c97e7e671cb!2m2!1d79.0616223!2d21.1766214"
+      ]
+    },
+    {
+      "tag": "feedeposit",
+      "patterns": [
+        "How one can deposit college fee?",
+        "how to pay college fees"
+      ],
+      "responses": [
+        "One can pay by DD/ Cash / Unio Bank Services"
+      ]
+    },
+    {
+      "tag": "managementquota",
+      "patterns": [
+        "How can I apply for Management Quota Round?",
+        "management quota"
+      ],
+      "responses": [
+        "After MhCET rounds starts there is notification on rknec.edu"
+      ]
+    },
+    {
+      "tag": "collegerank",
+      "patterns": [
+        "What is the ranking of the institute?",
+        "rcoem nirf rank",
+        "college rank in india"
+      ],
+      "responses": [
+        "146 in 2022 | 119 in 2021 | 113 in 2020"
       ]
     }
   ]
